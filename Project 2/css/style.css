@@ -1,0 +1,340 @@
+/*	font-family: 'Roboto Slab', serif;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Fruktur', cursive;
+	font-family: 'Dancing Script', cursive;
+*/
+
+
+body
+{
+	margin: 0;
+
+	font-size: 14px;
+}
+
+*
+{
+	border-style: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+	margin: 0;
+}
+
+
+/*Container
+*****************/
+#container 
+{
+	width: 100%;
+	max-width: 1170px;
+
+	margin: 0 auto;
+}
+
+
+/*Header
+*****************/
+
+#header 
+{
+	width: 100%;
+	height: 100px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: transparent;
+}
+
+#header__inner 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+}
+
+#header__logo
+{
+	font-size: 2.5em;
+	font-weight: 500;
+	font-family: 'Noto Sans Mono', sans-serif;
+	font-weight: 600; 
+}
+
+
+/*Nav
+*****************/
+
+#nav 
+{
+	display: flex;
+
+	font-size: 1.3em;
+	font-family: 'Roboto Slab', serif;
+}
+
+#nav__link 
+{
+	margin-left: 15px;
+
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.75;
+
+	transition: all.5s linear;
+}
+
+#nav__link:first-child
+{
+	margin-left: 0;
+}
+
+#nav__link:hover
+{
+	opacity: 1;
+	color: #FDC948;
+	text-decoration: underline;
+}
+
+
+/*INTRO
+*****************/
+
+#intro
+{
+	padding-top: 100px;
+	height: 570px;
+
+	background-image: url("../img/BMW.jpg");
+	background-blend-mode: multiply;
+	background-color: #D4C3DB;
+	background-size: cover;
+}
+
+#intro__inner
+{
+	text-align: center;
+	margin: 0 auto;
+
+	width: 100%;
+	max-width: 970px;
+}
+
+#intro__title
+{
+	margin: 190px 0 0;
+
+	font-family: 'Fruktur', cursive;
+	font-size: 65px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/*TOP
+*****************/
+
+#top
+{
+	height: 400px;
+
+	text-align: center;
+
+	border-top: 2px solid silver;
+	background-color: #CDCACE;
+}
+
+#top__inner
+{
+	margin: 0 auto;
+
+	width: 100%;
+}
+
+#top__title
+{
+	padding: 40px 0 0;
+	margin-bottom: 50px;
+
+	font-family: 'Dancing Script', cursive;
+	font-size: 56px;
+	color: dimgray;
+}
+
+#top_content
+{
+	font-size:  2em;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+/*MOVIE
+*****************/
+
+#movie
+{
+	height: 650px;
+
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif;
+	background-color: #CDCACE;
+
+	border-top: 2px solid dimgray;
+}
+
+#movie__title
+{
+	padding-top: 60px;
+	font-size: 45px;
+	color: dimgray;
+	font-size: font-family: 'Dancing Script', cursive;
+	font-weight: 600;
+	font-family: 'Dancing Script', cursive;
+	text-transform: uppercase;
+}
+
+#movie__inner
+{
+	display: flex;
+	flex: wrap;	
+
+	margin-top: 50px;
+}
+
+#movie__item
+{
+	padding-right: 3%;
+	width: 30%;
+}
+
+#movie__item:last-child
+{
+	padding-right: 0;
+}
+
+#movie__img
+{
+	width: 250px;
+	height: 350px;
+}
+
+#img__subtitle
+{
+	padding-top: 20px;
+
+}
+
+#img__subtitle a
+{
+	color: #FF1414;
+	text-decoration: none;
+
+	transition: all.5s linear;
+}
+
+#img__subtitle a:hover
+{
+	color: #D10909;
+}
+
+
+/*MOOD
+*****************/
+
+#mood
+{
+	height: 650px;
+
+	text-align: center;
+
+	border-top: 2px solid dimgray;
+
+	background-color: #CDCACE;
+}
+
+#mood__title
+{
+	padding: 60px 0 50px; 
+	width: 100%;
+
+	color: dimgray;
+	font-size: 3.5em;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Dancing Script', cursive;
+}
+
+#mood__inner
+{
+	display: flex;
+	flex: wrap;	
+}
+
+#mood__item
+{
+	padding-right: 3%;
+	width: 47%;
+}
+
+#mood__item h2
+{
+	padding-bottom: 20px;
+
+	font-size: 2em;
+	font-family: 'Ceviche One', cursive;
+}
+
+#mood__img
+{
+	width: 450px;
+	height: 326px;
+}
+
+
+/*NEIGHBOUR
+*****************/
+
+#neighbour
+{
+	height: 400px;
+
+	text-align: center;
+
+	border-top: 2px solid dimgray;
+	background-color: #CDCACE;
+}
+	
+#neighbour__inner
+{
+	margin: 0 auto;
+
+	width: 100%;
+}
+
+#neighbour__title
+{
+	padding: 40px 0 0;
+	margin-bottom: 50px;
+	
+	color: dimgray;
+	font-size: 3.5em;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Dancing Script', cursive;
+}
+
+#neighbour__content
+{
+	font-size:  2em;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
